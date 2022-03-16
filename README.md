@@ -6,7 +6,7 @@
 
 Pokedex é uma aplicação web construída junto com os professores do Devemdobro na semana MapaWeek.
 
-A aplicação consiste em colocar a em prática a utilização de flexbox e seu conceitos,o site e um site estática e responsivel feito apenas com html5, css3 e java script aplicando os conceito semanticos.
+A aplicação consiste no game do Pokemon onde temos um card com cada avatar com suas caracteristicas e hablidades. Com aplicação  colocamos em prática a utilização de flexbox e seu conceitos,a aplicação e um site estática e responsivel feito apenas com html5, css3 e java script aplicando os conceito semanticos. O ap esta publicado gitpage.
 
 ## Layout 
 
@@ -19,6 +19,9 @@ A aplicação consiste em colocar a em prática a utilização de flexbox e seu 
 - HTML 
 - CSS 
 - JS 
+
+## Url Pokedex
+https://jairtorezone.github.io/pokedex-card/
 
 # Autor
 Jair Torezone E Ribeiro
