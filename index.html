@@ -9,11 +9,13 @@
     <link rel="stylesheet" href="assets/css/cartao.css">
     <link rel="stylesheet" href="assets/css/listagem.css">
     <link rel="stylesheet" href="assets/css/responsivo.css">
-   
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans:ital,wght@0,400;0,700;1,300&family=Poppins:ital,wght@0,500;0,800;1,300&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans:ital,wght@0,400;0,700;1,300&family=Poppins:ital,wght@0,500;0,800;1,300&display=swap"
+        rel="stylesheet">
+
     <title>Pokédex </title>
 </head>
 
@@ -22,14 +24,10 @@
         <div class="pokedex">
             <!--INICIO-POKEDEX-->
             <div class="cartoes-pokemon">
-                <!--INICIO-CARTOES-POKEMON-->
                 <!--PIKACHU-->
-                <div class="cartao-pokemon aberto tipo-eletrico">
-                    <!--CABEÇALHO-->
+                <div class="cartao-pokemon aberto tipo-eletrico" id="cartao-pikachu">
                     <div class="cartao-top">
-                        <!--INICIO-CARTOES-TOP-->
                         <div class="detalhes">
-                            <!--INICIO-DETALHOES-->
                             <h2 class="nome">Pikachu</h2>
                             <span>#001</span>
                         </div>
@@ -39,53 +37,6 @@
                             <img src="assets/imagens/pikachu.png" alt="Pikachu">
                         </div>
                     </div>
-                    <!--FECHA-CARTOES-TOP-->
-                    <!--INFORMAÇÕES-->
-                    <div class="cartao-informacoes">
-
-                        <div class="status">
-                            <h3>Status</h3>
-                            <ul>
-                                <li>HP: 300</li>
-                                <li>Ataque: 600</li>
-                                <li>Defesa: 500</li>
-                                <li>Velocidade: 300</li>
-                                <li>Total: 1700</li>
-                            </ul>
-                        </div>
-                        <!--FECHA-STATUS-->
-
-                        <div class="habilidade">
-                            <h3>habilidades</h3>
-                            <ul>
-                                <li>Choque do trovão</li>
-                                <li>Cabeçada</li>
-                            </ul>
-                        </div>
-                        <!--FECHA-HABILIDADE-->
-
-                    </div>
-                    <!--FECHA-CARTAO-INFORMACOES-->
-                </div>
-                <!--FECHAMENTO-CARTÃO-POKEMON-->
-                <!--BULBASAUR-->
-                <div class="cartao-pokemon">
-                    <!--CABEÇALHO-->
-                    <div class="cartao-top">
-                        <!--INICIO-CARTOES-TOP-->
-                        <div class="detalhes">
-                            <!--INICIO-DETALHOES-->
-                            <h2 class="nome">Bulbasaur</h2>
-                            <span>#002</span>
-                        </div>
-                        <!--FIM-DETALHES-->
-                        <span class="tipo">grama</span>
-                        <div class="cartao-imagem">
-                            <img src="assets/imagens/bulbasaur.png" alt="Pikachu">
-                        </div>
-                    </div>
-                    <!--FECHA-CARTOES-TOP-->
-                    <!--INFORMAÇÕES-->
                     <div class="cartao-informacoes">
                         <div class="status">
                             <h3>Status</h3>
@@ -97,8 +48,6 @@
                                 <li>Total: 1700</li>
                             </ul>
                         </div>
-                        <!--FECHA-STATUS-->
-
                         <div class="habilidade">
                             <h3>habilidades</h3>
                             <ul>
@@ -106,74 +55,94 @@
                                 <li>Cabeçada</li>
                             </ul>
                         </div>
-                        <!--FECHA-HABILIDADE-->
-
                     </div>
-                    <!--FECHA-CARTAO-INFORMACOES-->
                 </div>
-                <!--FECHAMENTO-CARTÃO-POKEMON-->
                 <!--CHARMANDER-->
-                <div class="cartao-pokemon">
-                    <!--CABEÇALHO-->
+                <div class="cartao-pokemon tipo-fogo" id="cartao-charmander">
                     <div class="cartao-top">
-                        <!--INICIO-CARTOES-TOP-->
                         <div class="detalhes">
-                            <!--INICIO-DETALHOES-->
                             <h2 class="nome">Charmander</h2>
                             <span>#003</span>
                         </div>
                         <!--FIM-DETALHES-->
                         <span class="tipo">fogo</span>
                         <div class="cartao-imagem">
-                            <img src="assets/imagens/charmander.png" alt="Pikachu">
+                            <img src="assets/imagens/charmander.png" alt="Charmander">
                         </div>
                     </div>
-                    <!--FECHA-CARTOES-TOP-->
-                    <!--INFORMAÇÕES-->
                     <div class="cartao-informacoes">
                         <div class="status">
                             <h3>Status</h3>
                             <ul>
-                                <li>HP: 300</li>
-                                <li>Ataque: 600</li>
-                                <li>Defesa: 500</li>
-                                <li>Velocidade: 300</li>
-                                <li>Total: 1700</li>
+                                <li>HP: 200</li>
+                                <li>Ataque: 300</li>
+                                <li>Defesa: 400</li>
+                                <li>Velocidade: 320</li>
+                                <li>Total: 1220</li>
                             </ul>
                         </div>
-                        <!--FECHA-STATUS-->
-
                         <div class="habilidade">
                             <h3>habilidades</h3>
                             <ul>
-                                <li>Choque do trovão</li>
+                                <li>Lança-chamas</li>
                                 <li>Cabeçada</li>
                             </ul>
                         </div>
-                        <!--FECHA-HABILIDADE-->
-
                     </div>
-                    <!--FECHA-CARTAO-INFORMACOES-->
                 </div>
-                <!--FECHAMENTO-CARTÃO-POKEMON-->
+
+                <!--BULBASAUR-->
+                <div class="cartao-pokemon tipo-grama" id="cartao-bulbasaur">
+                    <div class="cartao-topo">
+                      <div class="detalhes">
+                        <h2 class="nome">Bulbasaur</h2>
+                        <span>#002</span>
+                      </div>
+        
+                      <span class="tipo">grama</span>
+        
+                      <div class="cartao-imagem">
+                        <img src="src/imagens/bulbasaur.png" alt="bulbasaur" />
+                      </div>
+                    </div>
+        
+                    <div class="cartao-informacoes">
+                      <div class="status">
+                        <h3>Status</h3>
+        
+                        <ul>
+                          <li>HP: 320</li>
+                          <li>Ataque: 510</li>
+                          <li>Defesa: 400</li>
+                          <li>Velocidade: 200</li>
+                          <li>Total: 1430</li>
+                        </ul>
+                      </div>
+        
+                      <div class="habilidades">
+                        <h3>Habilidades</h3>
+        
+                        <ul>
+                          <li>Folha navalha</li>
+                          <li>Raio solar</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
                 <!--GYARADOS-->
-                <div class="cartao-pokemon">
-                    <!--CABEÇALHO-->
+                <div class="cartao-pokemon tipo-agua" id="cartao-gyarados">
                     <div class="cartao-top">
-                        <!--INICIO-CARTOES-TOP-->
                         <div class="detalhes">
-                            <!--INICIO-DETALHOES-->
                             <h2 class="nome">Gyarados</h2>
                             <span>#004</span>
                         </div>
                         <!--FIM-DETALHES-->
                         <span class="tipo">água</span>
                         <div class="cartao-imagem">
-                            <img src="assets/imagens/gyarados.png" alt="Pikachu">
+                            <img src="assets/imagens/gyarados.png" alt="Gyarados">
                         </div>
                     </div>
-                    <!--FECHA-CARTOES-TOP-->
-                    <!--INFORMAÇÕES-->
                     <div class="cartao-informacoes">
                         <div class="status">
                             <h3>Status</h3>
@@ -185,112 +154,81 @@
                                 <li>Total: 1700</li>
                             </ul>
                         </div>
-                        <!--FECHA-STATUS-->
-
                         <div class="habilidade">
                             <h3>habilidades</h3>
                             <ul>
-                                <li>Choque do trovão</li>
-                                <li>Cabeçada</li>
+                                <li>Jato d'Água</li>
+                                <li>Hidro bomba</li>
                             </ul>
                         </div>
-                        <!--FECHA-HABILIDADE-->
-
                     </div>
-                    <!--FECHA-CARTAO-INFORMACOES-->
                 </div>
-                <!--FECHAMENTO-CARTÃO-POKEMON-->
+
                 <!--GENGAR-->
-                <div class="cartao-pokemon">
-                    <!--CABEÇALHO-->
+                <div class="cartao-pokemon tipo-trevas" id="cartao-gengar">
                     <div class="cartao-top">
-                        <!--INICIO-CARTOES-TOP-->
                         <div class="detalhes">
-                            <!--INICIO-DETALHOES-->
                             <h2 class="nome">Gengar</h2>
                             <span>#005</span>
                         </div>
-                        <!--FIM-DETALHES-->
                         <span class="tipo">trevas</span>
                         <div class="cartao-imagem">
                             <img src="assets/imagens/gengar.png" alt="Pikachu">
                         </div>
                     </div>
-                    <!--FECHA-CARTOES-TOP-->
-                    <!--INFORMAÇÕES-->
                     <div class="cartao-informacoes">
                         <div class="status">
                             <h3>Status</h3>
                             <ul>
-                                <li>HP: 300</li>
-                                <li>Ataque: 600</li>
-                                <li>Defesa: 500</li>
-                                <li>Velocidade: 300</li>
-                                <li>Total: 1700</li>
+                                <li>HP: 100</li>
+                                <li>Ataque: 200</li>
+                                <li>Defesa: 300</li>
+                                <li>Velocidade: 400</li>
+                                <li>Total: 1000</li>
                             </ul>
                         </div>
-                        <!--FECHA-STATUS-->
-
                         <div class="habilidade">
                             <h3>habilidades</h3>
                             <ul>
-                                <li>Choque do trovão</li>
-                                <li>Cabeçada</li>
+                                <li>Bola sombria</li>
+                                <li>Lambida</li>
                             </ul>
                         </div>
-                        <!--FECHA-HABILIDADE-->
-
                     </div>
-                    <!--FECHA-CARTAO-INFORMACOES-->
                 </div>
-                <!--FECHAMENTO-CARTÃO-POKEMON-->
                 <!--Dragonite-->
-                <div class="cartao-pokemon">
-                    <!--CABEÇALHO-->
+                <div class="cartao-pokemon tipo-fogo" id="cartao-dragonite">
                     <div class="cartao-top">
-                        <!--INICIO-CARTOES-TOP-->
                         <div class="detalhes">
-                            <!--INICIO-DETALHOES-->
                             <h2 class="nome">Dragonite</h2>
                             <span>#006</span>
                         </div>
-                        <!--FIM-DETALHES-->
                         <span class="tipo">dragão</span>
                         <div class="cartao-imagem">
-                            <img src="assets/imagens/dragonite.png" alt="Pikachu">
+                            <img src="assets/imagens/dragonite.png" alt="dragonite">
                         </div>
                     </div>
-                    <!--FECHA-CARTOES-TOP-->
-                    <!--INFORMAÇÕES-->
                     <div class="cartao-informacoes">
                         <div class="status">
                             <h3>Status</h3>
                             <ul>
-                                <li>HP: 300</li>
+                                <li>HP: 500</li>
                                 <li>Ataque: 600</li>
-                                <li>Defesa: 500</li>
-                                <li>Velocidade: 300</li>
-                                <li>Total: 1700</li>
+                                <li>Defesa: 400</li>
+                                <li>Velocidade: 400</li>
+                                <li>Total: 1900</li>
                             </ul>
                         </div>
-                        <!--FECHA-STATUS-->
-
                         <div class="habilidade">
                             <h3>habilidades</h3>
                             <ul>
-                                <li>Choque do trovão</li>
-                                <li>Cabeçada</li>
+                                <li>Dança do dragão</li>
+                                <li>Velocidade extrema</li>
                             </ul>
                         </div>
-                        <!--FECHA-HABILIDADE-->
-
                     </div>
-                    <!--FECHA-CARTAO-INFORMACOES-->
                 </div>
-                <!--FECHAMENTO-CARTÃO-POKEMON-->
             </div>
-            <!--FECHA-CARTOES-POKEMON-->
-
             <!--MENU-LATERAL-->
             <nav class="listagem">
                 <ul>
@@ -321,7 +259,6 @@
                 </ul>
             </nav>
         </div>
-        <!--FECHA-POKEDEX-->
     </main>
 
     <script src="assets/js/index.js"></script>
