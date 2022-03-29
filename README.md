@@ -2,6 +2,8 @@
 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/JairTorezone/pokedex-card/blob/main/LICENSE) 
 
+https://jairtorezone.github.io/pokedex-card/
+
 # Sobre o projeto
 
 Pokedex é uma aplicação web construída junto com os professores do Devemdobro na semana MapaWeek.
